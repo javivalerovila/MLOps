@@ -1,0 +1,71 @@
+_wandb:
+    value:
+        cli_version: 0.19.11
+        m: []
+        python_version: 3.10.0
+        t:
+            "1":
+                - 5
+                - 6
+                - 53
+                - 55
+            "2":
+                - 5
+                - 6
+                - 53
+                - 55
+            "3":
+                - 2
+                - 14
+                - 23
+                - 55
+            "4": 3.10.0
+            "5": 0.19.11
+            "8":
+                - 1
+                - 3
+                - 5
+            "12": 0.19.11
+            "13": windows-amd64
+        visualize:
+            roc_curve:
+                panel_config:
+                    fieldSettings:
+                        lineKey: lineKey
+                        lineVal: lineVal
+                        step: step
+                    panelDefId: wandb/lineseries/v0
+                    stringSettings:
+                        title: ROC Curve
+                        xname: FPR
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: roc_curve_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+colsample_bytree:
+    value: 0.6627554801435929
+learning_rate:
+    value: 0.049427056385369865
+max_depth:
+    value: 7
+n_estimators:
+    value: 200
+subsample:
+    value: 0.7827104286493536

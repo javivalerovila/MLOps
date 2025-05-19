@@ -1,0 +1,320 @@
+{"time":"2025-05-15T21:49:05.7121948+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\notebooks\\wandb\\run-20250515_214905-j9verr05\\logs\\debug-core.log"}
+{"time":"2025-05-15T21:49:06.6537188+02:00","level":"INFO","msg":"created new stream","id":"j9verr05"}
+{"time":"2025-05-15T21:49:06.6537188+02:00","level":"INFO","msg":"stream: started","id":"j9verr05"}
+{"time":"2025-05-15T21:49:06.6537188+02:00","level":"INFO","msg":"sender: started","stream_id":"j9verr05"}
+{"time":"2025-05-15T21:49:06.6537188+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"j9verr05"}
+{"time":"2025-05-15T21:49:06.6537188+02:00","level":"INFO","msg":"handler: started","stream_id":"j9verr05"}
+{"time":"2025-05-15T21:49:07.0460819+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T21:50:36.2818418+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-15T21:50:36.5138261+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-15T21:51:37.8583146+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:51:40.0985128+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:51:44.8486761+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:51:53.8459566+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:51:56.56653+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.20.10.2:59669->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-15T21:51:58.5972642+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:52:02.7778082+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:52:10.8024032+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:52:13.2588571+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:52:25.3756085+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-15T21:52:26.108783+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-15T21:52:29.3231221+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:52:48.6220312+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:53:03.2456754+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:53:26.959536+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-15T21:53:27.0795507+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-15T21:53:39.1920675+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-15T21:53:39.326083+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-15T21:53:45.0702874+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-15T21:53:45.2294935+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-15T21:53:48.6299464+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:54:03.2552936+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:54:43.2527101+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-15T21:54:43.4088807+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-15T21:54:48.644297+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:55:03.2612626+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:55:48.6594337+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:56:03.2672334+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:56:48.6693975+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T21:57:03.274734+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T00:57:27.4730164+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T00:57:27.6333148+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T00:57:27.3873831+02:00","level":"WARN","msg":"sender: taking a long time","seconds":11149.2178733,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"whe4el10q62z\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T03:57:27.548383+02:00","level":"WARN","msg":"sender: taking a long time","seconds":21950.2353652,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"whe4el10q62z\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T03:57:27.5746049+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T03:57:28.0978449+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:43:33.5593635+02:00","level":"WARN","msg":"sender: taking a long time","seconds":53516.2463462,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"whe4el10q62z\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T12:43:33.8842692+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:43:33.8842692+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:44:33.9269151+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:44:33.9269151+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:44:37.0910534+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:44:45.5560617+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:44:46.7900472+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:44:53.7580087+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:44:53.7900616+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:44:53.82336+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:44:53.858907+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:44:53.8641539+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:44:55.091807+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:44:56.3220779+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:44:56.9097239+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:44:56.9604935+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:44:57.5796844+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:44:57.5913714+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:44:59.6829784+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:44:59.7030404+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:45:00.8440257+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:45:02.9584016+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:45:09.2948938+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:45:09.510127+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:45:10.3053489+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:45:10.4788486+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:45:11.3482313+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:45:11.3506497+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:45:11.8175898+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:45:12.1253093+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:45:13.8157829+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:45:14.1643132+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:45:14.9958617+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:45:14.9984015+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T12:45:15.7951478+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T12:45:36.9371064+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:45:36.9371064+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:46:37.1885821+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:46:37.1885821+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:47:37.2188984+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:47:37.2198076+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:48:37.248622+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:48:37.248622+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:49:37.2715165+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:49:37.2726358+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:50:37.2887273+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:50:37.2887273+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:51:37.3061513+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:51:37.3061513+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:51:37.3374131+02:00","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:51:37.4567997+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":54000.1391098,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"whe4el10q62z\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T12:51:46.1310097+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:51:48.5789222+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:51:53.1640557+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:52:02.8524785+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:52:22.2411539+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:52:37.3666102+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:52:57.1386147+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:53:37.3954508+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:53:57.1481711+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:54:37.4094924+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:54:57.1628779+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:55:37.4442879+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:55:57.1769406+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:56:37.5014523+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:56:57.1899096+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:57:37.5241301+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:57:57.2185417+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:58:37.5354924+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:58:57.2335741+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:59:37.5488782+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T12:59:57.2464436+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:00:37.5819776+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:00:57.2601237+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:01:37.5952212+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:01:46.1111467+02:00","level":"WARN","msg":"sender: taking a long time","seconds":600.0005687,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"ipw0msuevoh1\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T13:01:57.2742765+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:02:37.6082933+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:02:57.287208+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:04:06.870635+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:04:06.8908626+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:04:07.079046+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:05:06.9858781+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:05:07.1031984+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:06:07.0131444+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:06:07.1058887+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:07:07.0271057+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:07:07.1072951+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:08:07.0357093+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:08:07.1082418+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:08:07.1157276+02:00","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:08:07.1656177+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":981.0550399,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"ipw0msuevoh1\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T13:08:19.9580814+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:08:22.1340947+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:08:26.46327+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:08:35.7269617+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:08:52.7676223+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:09:07.0647768+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:09:27.8656507+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:10:07.0718284+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:10:27.8741459+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:11:07.0804467+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:11:27.8823537+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:12:07.2474+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:12:27.8909208+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:13:07.2682382+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:13:27.8987998+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:14:07.2762366+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:14:27.9079265+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:15:07.2860774+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:15:27.9166258+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:16:07.3007745+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:16:27.9282052+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:17:07.3082237+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:17:27.9362145+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T13:18:19.9485055+02:00","level":"WARN","msg":"sender: taking a long time","seconds":600.0005702,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"iop9z1dekbcy\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T13:18:28.2638402+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":608.3153707,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"iop9z1dekbcy\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T13:33:38.714081+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T13:33:38.8394906+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T13:33:39.1285618+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T13:33:39.1947959+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T13:33:39.2334806+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T13:33:39.2532156+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T15:07:26.6582048+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:07:28.9797926+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:07:33.1324883+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:07:37.266212+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 172.20.10.2:52495->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-16T15:07:39.3894868+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:07:42.6112713+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:07:44.226178+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:07:53.1435426+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:08:00.2797843+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:08:11.5717977+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:08:34.6481753+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:08:44.3506909+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:09:34.676908+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:09:44.3680649+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:10:34.6941933+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:10:44.3798093+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:11:34.7098308+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:11:44.399779+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:12:34.7300126+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:12:44.4124043+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:13:34.7517682+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:13:44.4228239+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:14:34.7777904+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:14:44.4395001+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:15:34.8007918+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:15:44.4535681+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:16:34.8159768+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:16:44.4720776+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:17:18.0252827+02:00","level":"WARN","msg":"sender: taking a long time","seconds":600.0004236,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"6ozwjc84cafv\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T15:17:34.8323077+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:17:44.4864347+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:18:34.8486319+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:18:44.5029892+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:19:34.8642077+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:19:44.5147083+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:20:34.8826471+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:20:44.5241391+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:20:56.0938187+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T15:20:56.3463186+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T15:20:59.3578559+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T15:20:59.3859756+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T15:20:59.511325+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T15:20:59.5489879+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T15:20:59.5649951+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T15:20:59.6044539+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T15:20:59.9684666+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T15:21:00.1026417+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T15:21:00.1170061+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T15:21:00.1381402+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T15:21:00.1664626+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T15:21:00.1973463+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T15:21:01.2358506+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T15:21:34.8954074+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:21:44.5468178+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:22:34.9075899+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:22:44.57649+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:23:34.9199042+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:23:44.597983+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:23:44.6016448+02:00","level":"ERROR","msg":"sender: sendStopStatus: failed to get run stopped status: api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:23:44.6168977+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":986.5920386,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"6ozwjc84cafv\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T15:23:48.1067379+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:23:50.3359896+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:23:55.1374393+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:24:03.9466592+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:24:23.656024+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T15:24:34.9265513+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:06:10.1199097+02:00","level":"WARN","msg":"sender: taking a long time","seconds":2541.4234711,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"hu9ugh2nvksz\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T16:06:10.276478+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:06:10.276478+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:07:04.191855+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:04.5292936+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:04.6072674+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:04.6388402+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:05.2166254+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:05.2275052+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:05.2529353+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:05.2797245+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:05.4412105+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:05.4538737+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:06.2640939+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:06.2751287+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:06.4691569+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:06.4806618+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:06.8613963+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:06.8706989+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:06.9013482+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:06.9102251+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:08.03385+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:08.0733794+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:08.4321582+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:08.4426634+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:08.6321387+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:08.6495785+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:08.770178+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:08.7809631+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:08.9821707+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:09.00422+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:09.3141148+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:09.3324756+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:09.5848423+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:09.6028577+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:10.2863247+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:07:10.2863247+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:07:12.6627389+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:23.6180736+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:07:43.8646545+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:07:43.9379946+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:08:10.3104822+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:08:10.3129047+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/j9verr05/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:08:34.1665885+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:08:59.3947528+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:09:03.1086769+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:09:11.2238026+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":2723.1057727,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"hu9ugh2nvksz\" connection_id:\"127.0.0.1:59666\")"}
+{"time":"2025-05-16T16:10:15.9604998+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:34.1188568+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:34.8717177+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:41.7594304+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:42.0944569+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:42.3825291+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:42.4135882+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:43.335746+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:43.3697813+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:43.8220884+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:43.8372806+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:44.4875117+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:44.5323975+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:44.6233396+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:44.6653903+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:44.8400132+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:44.8654602+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:45.1925511+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:45.2246406+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:45.4546114+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:45.4751803+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:45.7998843+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:53.9498958+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:16:54.0191829+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:16:55.9797173+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:17:48.7436092+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:17:48.7837198+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:17:57.2785614+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:17:57.3005982+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-16T16:20:41.5306217+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-16T16:20:44.3610131+02:00","level":"INFO","msg":"stream: closing","id":"j9verr05"}
+{"time":"2025-05-16T16:20:44.3627146+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T16:20:44.3632862+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T16:20:45.6590057+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T16:20:46.0618404+02:00","level":"INFO","msg":"handler: closed","stream_id":"j9verr05"}
+{"time":"2025-05-16T16:20:46.0618404+02:00","level":"INFO","msg":"sender: closed","stream_id":"j9verr05"}
+{"time":"2025-05-16T16:20:46.0618404+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j9verr05"}
+{"time":"2025-05-16T16:20:46.0631821+02:00","level":"INFO","msg":"stream: closed","id":"j9verr05"}

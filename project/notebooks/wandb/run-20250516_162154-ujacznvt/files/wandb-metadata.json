@@ -1,0 +1,31 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.10.0",
+  "startedAt": "2025-05-16T14:21:54.146070Z",
+  "program": "c:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\notebooks\\best_model.ipynb",
+  "codePath": "project\\notebooks\\best_model.ipynb",
+  "git": {
+    "remote": "https://github.com/javier-pg/upm-dl-mlops.git",
+    "commit": "398aaa143e16c404dafbfd1b44af36e71c54af78"
+  },
+  "email": "sofiaperezperez22@gmail.com",
+  "root": "c:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\notebooks",
+  "host": "Valero",
+  "executable": "c:\\Python310\\python.exe",
+  "codePathLocal": "best_model.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "254683377664",
+      "used": "220113215488"
+    }
+  },
+  "memory": {
+    "total": "8467316736"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

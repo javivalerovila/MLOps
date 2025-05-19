@@ -1,0 +1,14 @@
+C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\xgboost\training.py:183: UserWarning: [20:17:49] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+  bst.update(dtrain, iteration=i, fobj=obj)
+AUC del modelo: 0.9276
+Matriz de confusion: [[5420  581]
+ [ 288 5713]]
+Métricas de evaluación:
+acc: 0.9275954007665389
+precision: 0.907689863361932
+recall: 0.9520079986668889
+f1: 0.9293208621390809
+auc: 0.977966345163658
+Artefactos registrados en Weights & Biases.
+Artefactos guardados en la carpeta artifacts.

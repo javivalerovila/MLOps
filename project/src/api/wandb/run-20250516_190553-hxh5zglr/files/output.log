@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 80, in <module>
+    columnas_numericas = columnas_numericas.drop('label')
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\pandas\core\indexes\base.py", line 7069, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['label'] not found in axis"
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 80, in <module>
+    columnas_numericas = columnas_numericas.drop('label')
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\pandas\core\indexes\base.py", line 7069, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['label'] not found in axis"

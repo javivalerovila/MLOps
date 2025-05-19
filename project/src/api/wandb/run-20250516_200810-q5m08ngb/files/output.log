@@ -1,0 +1,24 @@
+C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\xgboost\training.py:183: UserWarning: [20:08:21] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+  bst.update(dtrain, iteration=i, fobj=obj)
+AUC del modelo: 0.9283
+Matriz de confusion: [[5438  563]
+ [ 298 5703]]
+Métricas de evaluación:
+acc: 0.9282619563406099
+precision: 0.9101500159591446
+recall: 0.9503416097317113
+f1: 0.929811689899731
+auc: 0.9783279051891618
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 167, in <module>
+    joblib.dump(model, "artifacts/model.pkl")
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\joblib\numpy_pickle.py", line 552, in dump
+    with open(filename, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/model.pkl'
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 167, in <module>
+    joblib.dump(model, "artifacts/model.pkl")
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\joblib\numpy_pickle.py", line 552, in dump
+    with open(filename, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/model.pkl'

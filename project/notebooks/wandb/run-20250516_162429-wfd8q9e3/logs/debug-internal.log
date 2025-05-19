@@ -1,0 +1,16 @@
+{"time":"2025-05-16T16:24:29.7294751+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\notebooks\\wandb\\run-20250516_162429-wfd8q9e3\\logs\\debug-core.log"}
+{"time":"2025-05-16T16:24:30.5100712+02:00","level":"INFO","msg":"created new stream","id":"wfd8q9e3"}
+{"time":"2025-05-16T16:24:30.5100712+02:00","level":"INFO","msg":"stream: started","id":"wfd8q9e3"}
+{"time":"2025-05-16T16:24:30.5107657+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"wfd8q9e3"}
+{"time":"2025-05-16T16:24:30.5107657+02:00","level":"INFO","msg":"handler: started","stream_id":"wfd8q9e3"}
+{"time":"2025-05-16T16:24:30.5107657+02:00","level":"INFO","msg":"sender: started","stream_id":"wfd8q9e3"}
+{"time":"2025-05-16T16:24:30.7696186+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T16:24:44.6433352+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T16:24:44.6433352+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T16:24:45.6646196+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-wfd8q9e3-predictions_table","runtime_seconds":1.9161671},{"desc":"uploading media\\table\\predictions_table_3_9b782f6e39165d4fe3b3.table.json","runtime_seconds":0.6795338,"progress":"279.8KB/279.8KB"}],"total_operations":2}}
+{"time":"2025-05-16T16:24:47.0352422+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T16:24:47.7136699+02:00","level":"INFO","msg":"stream: closing","id":"wfd8q9e3"}
+{"time":"2025-05-16T16:24:47.7136699+02:00","level":"INFO","msg":"handler: closed","stream_id":"wfd8q9e3"}
+{"time":"2025-05-16T16:24:47.7136699+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wfd8q9e3"}
+{"time":"2025-05-16T16:24:47.7151981+02:00","level":"INFO","msg":"sender: closed","stream_id":"wfd8q9e3"}
+{"time":"2025-05-16T16:24:47.7171554+02:00","level":"INFO","msg":"stream: closed","id":"wfd8q9e3"}

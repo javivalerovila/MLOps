@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "3.10.0",
+    "heartbeatAt": "2025-05-16T17:09:35.570127",
+    "startedAt": "2025-05-16T17:09:34.470108",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\src\\api\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "project\\src\\api\\train.py",
+    "git": {
+        "remote": "https://github.com/javier-pg/upm-dl-mlops.git",
+        "commit": "398aaa143e16c404dafbfd1b44af36e71c54af78"
+    },
+    "email": "javiervalvi@gmail.com",
+    "root": "C:/Users/javier/OneDrive/Documentos/Master/MLOps/upm-dl-mlops",
+    "host": "Valero",
+    "username": "javier",
+    "executable": "C:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\venv\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1600.0,
+        "min": 0.0,
+        "max": 1800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1600.0,
+            "min": 0.0,
+            "max": 1800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 237.19237899780273,
+            "used": 208.56462478637695
+        }
+    },
+    "memory": {
+        "total": 7.88580322265625
+    }
+}

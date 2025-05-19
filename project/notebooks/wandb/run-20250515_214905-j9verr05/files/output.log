@@ -1,0 +1,49 @@
+Hemos eliminado 31 variables
+Hay 123 columnas de entrenamiento
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x0000022EB10D0A00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/xgboost/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x0000022EB10D0760>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/xgboost/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x0000022EB10D03A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/xgboost/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x0000022EB10D1240>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/xgboost/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x0000022EB10D13F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /simple/xgboost/
+ERROR: Could not find a version that satisfies the requirement xgboost (from versions: none)
+ERROR: No matching distribution found for xgboost
+WARNING: You are using pip version 21.2.3; however, version 25.1.1 is available.
+You should consider upgrading via the 'C:\Python310\python.exe -m pip install --upgrade pip' command.
+Collecting xgboost
+WARNING: You are using pip version 21.2.3; however, version 25.1.1 is available.
+  Downloading xgboost-3.0.1-py3-none-win_amd64.whl (150.0 MB)
+You should consider upgrading via the 'C:\Python310\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: numpy in c:\python310\lib\site-packages (from xgboost) (2.2.5)
+Requirement already satisfied: scipy in c:\python310\lib\site-packages (from xgboost) (1.15.3)
+Installing collected packages: xgboost
+Successfully installed xgboost-3.0.1
+c:\Python310\lib\site-packages\xgboost\training.py:183: UserWarning: [16:09:09] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+AUC del modelo: 0.9374
+Matriz de confusion: [[5458  543]
+ [ 208 5793]]
+Collecting seaborn
+WARNING: You are using pip version 21.2.3; however, version 25.1.1 is available.
+  Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+You should consider upgrading via the 'C:\Python310\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: matplotlib!=3.6.1,>=3.4 in c:\python310\lib\site-packages (from seaborn) (3.10.3)
+Requirement already satisfied: numpy!=1.24.0,>=1.20 in c:\python310\lib\site-packages (from seaborn) (2.2.5)
+Requirement already satisfied: pandas>=1.2 in c:\python310\lib\site-packages (from seaborn) (2.2.3)
+Requirement already satisfied: cycler>=0.10 in c:\python310\lib\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\python310\lib\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (4.58.0)
+Requirement already satisfied: packaging>=20.0 in c:\python310\lib\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (24.1)
+Requirement already satisfied: contourpy>=1.0.1 in c:\python310\lib\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.3.2)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\javier\appdata\roaming\python\python310\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (2.9.0.post0)
+Requirement already satisfied: pillow>=8 in c:\python310\lib\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (11.2.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\python310\lib\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (1.4.8)
+Requirement already satisfied: pyparsing>=2.3.1 in c:\python310\lib\site-packages (from matplotlib!=3.6.1,>=3.4->seaborn) (3.2.3)
+Requirement already satisfied: pytz>=2020.1 in c:\python310\lib\site-packages (from pandas>=1.2->seaborn) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in c:\python310\lib\site-packages (from pandas>=1.2->seaborn) (2025.2)
+Requirement already satisfied: six>=1.5 in c:\python310\lib\site-packages (from python-dateutil>=2.7->matplotlib!=3.6.1,>=3.4->seaborn) (1.16.0)
+Installing collected packages: seaborn
+Successfully installed seaborn-0.13.2
+Create sweep with ID: rx64mbvc
+Sweep URL: https://wandb.ai/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/sweeps/rx64mbvc
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.

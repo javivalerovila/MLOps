@@ -1,0 +1,16 @@
+{"time":"2025-05-16T16:24:12.8268219+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\notebooks\\wandb\\run-20250516_162412-7ywjixe5\\logs\\debug-core.log"}
+{"time":"2025-05-16T16:24:13.6265861+02:00","level":"INFO","msg":"created new stream","id":"7ywjixe5"}
+{"time":"2025-05-16T16:24:13.6271899+02:00","level":"INFO","msg":"stream: started","id":"7ywjixe5"}
+{"time":"2025-05-16T16:24:13.6271899+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"7ywjixe5"}
+{"time":"2025-05-16T16:24:13.6271899+02:00","level":"INFO","msg":"handler: started","stream_id":"7ywjixe5"}
+{"time":"2025-05-16T16:24:13.6271899+02:00","level":"INFO","msg":"sender: started","stream_id":"7ywjixe5"}
+{"time":"2025-05-16T16:24:13.8930317+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T16:24:21.473963+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T16:24:21.473963+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T16:24:22.498685+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-7ywjixe5-predictions_table","runtime_seconds":1.8606376999999998,"subtasks":[{"desc":"predictions_table.table.json","runtime_seconds":1.056288,"progress":"335.2KB/335.2KB"}]},{"desc":"uploading media\\table\\predictions_table_3_fbaa6873f5b91b4c9b8c.table.json","runtime_seconds":0.2303975,"progress":"112.0KB/278.9KB"},{"desc":"uploading output.log","runtime_seconds":0.22976},{"desc":"uploading wandb-summary.json","runtime_seconds":0.22976,"progress":"1.7KB/1.7KB"}],"total_operations":4}}
+{"time":"2025-05-16T16:24:24.6341286+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T16:24:25.0595809+02:00","level":"INFO","msg":"stream: closing","id":"7ywjixe5"}
+{"time":"2025-05-16T16:24:25.0595809+02:00","level":"INFO","msg":"handler: closed","stream_id":"7ywjixe5"}
+{"time":"2025-05-16T16:24:25.0602459+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"7ywjixe5"}
+{"time":"2025-05-16T16:24:25.0602459+02:00","level":"INFO","msg":"sender: closed","stream_id":"7ywjixe5"}
+{"time":"2025-05-16T16:24:25.0613446+02:00","level":"INFO","msg":"stream: closed","id":"7ywjixe5"}

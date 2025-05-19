@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado</title>
+</head>
+<body>
+    <h1>Resultado de Predicción</h1>
+    <p>La predicción de fraude es: <strong>{{ prediction }}</strong></p>
+    <h3>Datos enviados:</h3>
+    <pre>{{ raw_data|tojson(indent=2) }}</pre>
+    <a href="/">Nueva consulta</a>
+</body>
+</html>

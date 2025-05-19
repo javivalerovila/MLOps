@@ -1,0 +1,33 @@
+2025-05-16 16:24:29,693 INFO    Thread-86 (_run_job):28288 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-16 16:24:29,693 INFO    Thread-86 (_run_job):28288 [wandb_setup.py:_flush():70] Configure stats pid to 28288
+2025-05-16 16:24:29,694 INFO    Thread-86 (_run_job):28288 [wandb_setup.py:_flush():70] Loading settings from C:\Users\javier\.config\wandb\settings
+2025-05-16 16:24:29,694 INFO    Thread-86 (_run_job):28288 [wandb_setup.py:_flush():70] Loading settings from c:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\notebooks\wandb\settings
+2025-05-16 16:24:29,694 INFO    Thread-86 (_run_job):28288 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-16 16:24:29,696 INFO    Thread-86 (_run_job):28288 [wandb_init.py:setup_run_log_directory():724] Logging user logs to c:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\notebooks\wandb\run-20250516_162429-wfd8q9e3\logs\debug.log
+2025-05-16 16:24:29,697 INFO    Thread-86 (_run_job):28288 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to c:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\notebooks\wandb\run-20250516_162429-wfd8q9e3\logs\debug-internal.log
+2025-05-16 16:24:29,697 INFO    Thread-86 (_run_job):28288 [wandb_init.py:init():852] calling init triggers
+2025-05-16 16:24:29,697 INFO    Thread-86 (_run_job):28288 [wandb_init.py:init():857] wandb.init called with sweep_config: {'colsample_bytree': 0.920783241729449, 'learning_rate': 0.12168561063375095, 'max_depth': 7, 'n_estimators': 100, 'subsample': 0.6866544692955805}
+config: {'_wandb': {}}
+2025-05-16 16:24:29,697 INFO    Thread-86 (_run_job):28288 [wandb_init.py:init():893] starting backend
+2025-05-16 16:24:29,697 INFO    Thread-86 (_run_job):28288 [wandb_init.py:init():897] sending inform_init request
+2025-05-16 16:24:29,710 INFO    Thread-86 (_run_job):28288 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-16 16:24:29,712 INFO    Thread-86 (_run_job):28288 [wandb_init.py:init():907] backend started and connected
+2025-05-16 16:24:29,716 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_config_callback():1436] config_cb None None {'colsample_bytree': 0.920783241729449, 'learning_rate': 0.12168561063375095, 'max_depth': 7, 'n_estimators': 100, 'subsample': 0.6866544692955805}
+2025-05-16 16:24:29,719 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_label_probe_notebook():1376] probe notebook
+2025-05-16 16:24:29,732 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_label_probe_notebook():1386] Unable to probe notebook: 'charmap' codec can't decode byte 0x81 in position 38601: character maps to <undefined>
+2025-05-16 16:24:29,733 INFO    Thread-86 (_run_job):28288 [wandb_init.py:init():1005] updated telemetry
+2025-05-16 16:24:30,007 INFO    Thread-86 (_run_job):28288 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-16 16:24:30,732 INFO    Thread-86 (_run_job):28288 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-16 16:24:31,191 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-16 16:24:31,191 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-16 16:24:31,191 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-16 16:24:31,191 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-16 16:24:31,194 INFO    Thread-86 (_run_job):28288 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-16 16:24:40,250 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_config_callback():1436] config_cb ('_wandb', 'visualize', 'roc_curve') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/lineseries/v0', 'fieldSettings': {'step': 'step', 'lineKey': 'lineKey', 'lineVal': 'lineVal'}, 'stringSettings': {'title': 'ROC Curve', 'xname': 'FPR'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'roc_curve_table'}], 'fields': []}]}]}}} None
+2025-05-16 16:24:44,639 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_finish():2321] finishing run sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/wfd8q9e3
+2025-05-16 16:24:44,640 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_atexit_cleanup():2538] got exitcode: 0
+2025-05-16 16:24:44,641 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_restore():2520] restore
+2025-05-16 16:24:44,641 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_restore():2526] restore done
+2025-05-16 16:24:47,666 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_footer_history_summary_info():4188] rendering history
+2025-05-16 16:24:47,669 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_footer_history_summary_info():4220] rendering summary
+2025-05-16 16:24:47,684 INFO    Thread-86 (_run_job):28288 [wandb_run.py:_footer_sync_info():4149] logging synced files

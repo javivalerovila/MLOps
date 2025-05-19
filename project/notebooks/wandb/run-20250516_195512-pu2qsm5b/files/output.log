@@ -1,0 +1,32 @@
+Hemos eliminado 31 variables
+Hay 123 columnas de entrenamiento
+Requirement already satisfied: xgboost in c:\python310\lib\site-packages (3.0.1)
+WARNING: You are using pip version 21.2.3; however, version 25.1.1 is available.
+Requirement already satisfied: numpy in c:\python310\lib\site-packages (from xgboost) (2.2.5)
+You should consider upgrading via the 'C:\Python310\python.exe -m pip install --upgrade pip' command.
+Requirement already satisfied: scipy in c:\python310\lib\site-packages (from xgboost) (1.15.3)
+c:\Python310\lib\site-packages\xgboost\training.py:183: UserWarning: [19:55:58] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+AUC del modelo: 0.9425
+Matriz de confusion: [[5525  476]
+ [ 214 5787]]
+
+Top 20 variables más importantes según SHAP:
+             feature  importance
+38      Payment_6804    1.142610
+53    Infraction_EJZ    0.315103
+122       Base_76065    0.274320
+0     Infraction_GGO    0.271449
+71   Infraction_TLPJ    0.269890
+101  Infraction_RKTA    0.248876
+73    Infraction_CZE    0.245176
+112       Base_02683    0.230807
+108   Infraction_BSU    0.207591
+31   Infraction_FMXQ    0.207177
+115   Infraction_TBP    0.195766
+14   Expenditure_JIG    0.193733
+26         Base_7744    0.186821
+66         Risk_8902    0.179421
+113  Infraction_AYWV    0.159296

@@ -1,0 +1,16 @@
+{"time":"2025-05-16T16:22:57.5367236+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\notebooks\\wandb\\run-20250516_162257-kvs30531\\logs\\debug-core.log"}
+{"time":"2025-05-16T16:22:58.2089504+02:00","level":"INFO","msg":"created new stream","id":"kvs30531"}
+{"time":"2025-05-16T16:22:58.2096048+02:00","level":"INFO","msg":"stream: started","id":"kvs30531"}
+{"time":"2025-05-16T16:22:58.215496+02:00","level":"INFO","msg":"sender: started","stream_id":"kvs30531"}
+{"time":"2025-05-16T16:22:58.215496+02:00","level":"INFO","msg":"handler: started","stream_id":"kvs30531"}
+{"time":"2025-05-16T16:22:58.215496+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"kvs30531"}
+{"time":"2025-05-16T16:22:58.4642541+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T16:23:14.3624506+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T16:23:14.3624506+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T16:23:15.3880459+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-kvs30531-predictions_table","runtime_seconds":2.1309994},{"desc":"uploading media\\table\\predictions_table_3_02a9de13da3c412386bb.table.json","runtime_seconds":0.6513573,"progress":"224.0KB/277.9KB"},{"desc":"uploading output.log","runtime_seconds":0.6513573},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6513573,"progress":"1.7KB/1.7KB"}],"total_operations":4}}
+{"time":"2025-05-16T16:23:16.590495+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T16:23:16.9923549+02:00","level":"INFO","msg":"stream: closing","id":"kvs30531"}
+{"time":"2025-05-16T16:23:16.9923549+02:00","level":"INFO","msg":"handler: closed","stream_id":"kvs30531"}
+{"time":"2025-05-16T16:23:16.9923549+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kvs30531"}
+{"time":"2025-05-16T16:23:16.9923549+02:00","level":"INFO","msg":"sender: closed","stream_id":"kvs30531"}
+{"time":"2025-05-16T16:23:16.992891+02:00","level":"INFO","msg":"stream: closed","id":"kvs30531"}

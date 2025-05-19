@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 82, in <module>
+    columnas_numericas = columnas_numericas.drop('label')
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\pandas\core\indexes\base.py", line 7069, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['label'] not found in axis"
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 82, in <module>
+    columnas_numericas = columnas_numericas.drop('label')
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\pandas\core\indexes\base.py", line 7069, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['label'] not found in axis"
+Index(['Payment_6804', 'Infraction_CGP', 'Base_7744', 'Base_80863',
+       'Risk_1930', 'Expenditure_JIG', 'Infraction_SNZ', 'Base_02683',
+       'Infraction_SBF', 'Infraction_ZWWJ',
+       ...
+       'Infraction_QGR', 'Infraction_ZTLC', 'Infraction_LSX', 'Infraction_IBJ',
+       'Infraction_DNOU', 'Infraction_YFSG_enc', 'Infraction_DQLY_enc',
+       'Infraction_CLH_enc', 'Base_67254_enc', 'Infraction_TEN_enc'],
+      dtype='object', length=188)

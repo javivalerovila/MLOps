@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 85, in <module>
+    X_train_imputed = pd.DataFrame(imputer.fit_transform(df_balanced[columnas_numericas]), columns=[columnas_numericas])
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\utils\_set_output.py", line 157, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\base.py", line 916, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\utils\_set_output.py", line 157, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\impute\_knn.py", line 365, in transform
+    for chunk in gen:
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\metrics\pairwise.py", line 2027, in pairwise_distances_chunked
+    D_chunk = reduce_func(D_chunk, sl.start)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\impute\_knn.py", line 348, in process_chunk
+    value = self._calc_impute(
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\impute\_knn.py", line 183, in _calc_impute
+    donors_idx = np.argpartition(dist_pot_donors, n_neighbors - 1, axis=1)[
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\numpy\core\fromnumeric.py", line 858, in argpartition
+    return _wrapfunc(a, 'argpartition', kth, axis=axis, kind=kind, order=order)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 85, in <module>
+    X_train_imputed = pd.DataFrame(imputer.fit_transform(df_balanced[columnas_numericas]), columns=[columnas_numericas])
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\utils\_set_output.py", line 157, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\base.py", line 916, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\utils\_set_output.py", line 157, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\impute\_knn.py", line 365, in transform
+    for chunk in gen:
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\metrics\pairwise.py", line 2027, in pairwise_distances_chunked
+    D_chunk = reduce_func(D_chunk, sl.start)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\impute\_knn.py", line 348, in process_chunk
+    value = self._calc_impute(
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\sklearn\impute\_knn.py", line 183, in _calc_impute
+    donors_idx = np.argpartition(dist_pot_donors, n_neighbors - 1, axis=1)[
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\numpy\core\fromnumeric.py", line 858, in argpartition
+    return _wrapfunc(a, 'argpartition', kth, axis=axis, kind=kind, order=order)
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+KeyboardInterrupt

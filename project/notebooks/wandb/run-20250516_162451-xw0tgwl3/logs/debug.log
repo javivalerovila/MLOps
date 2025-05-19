@@ -1,0 +1,331 @@
+2025-05-16 16:24:51,959 INFO    Thread-91 (_run_job):28288 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-16 16:24:51,963 INFO    Thread-91 (_run_job):28288 [wandb_setup.py:_flush():70] Configure stats pid to 28288
+2025-05-16 16:24:51,963 INFO    Thread-91 (_run_job):28288 [wandb_setup.py:_flush():70] Loading settings from C:\Users\javier\.config\wandb\settings
+2025-05-16 16:24:51,963 INFO    Thread-91 (_run_job):28288 [wandb_setup.py:_flush():70] Loading settings from c:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\notebooks\wandb\settings
+2025-05-16 16:24:51,965 INFO    Thread-91 (_run_job):28288 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-16 16:24:51,965 INFO    Thread-91 (_run_job):28288 [wandb_init.py:setup_run_log_directory():724] Logging user logs to c:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\notebooks\wandb\run-20250516_162451-xw0tgwl3\logs\debug.log
+2025-05-16 16:24:51,965 INFO    Thread-91 (_run_job):28288 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to c:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\notebooks\wandb\run-20250516_162451-xw0tgwl3\logs\debug-internal.log
+2025-05-16 16:24:51,965 INFO    Thread-91 (_run_job):28288 [wandb_init.py:init():852] calling init triggers
+2025-05-16 16:24:51,970 INFO    Thread-91 (_run_job):28288 [wandb_init.py:init():857] wandb.init called with sweep_config: {'colsample_bytree': 0.6627554801435929, 'learning_rate': 0.049427056385369865, 'max_depth': 7, 'n_estimators': 200, 'subsample': 0.7827104286493536}
+config: {'_wandb': {}}
+2025-05-16 16:24:51,970 INFO    Thread-91 (_run_job):28288 [wandb_init.py:init():893] starting backend
+2025-05-16 16:24:51,970 INFO    Thread-91 (_run_job):28288 [wandb_init.py:init():897] sending inform_init request
+2025-05-16 16:24:51,986 INFO    Thread-91 (_run_job):28288 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-16 16:24:51,987 INFO    Thread-91 (_run_job):28288 [wandb_init.py:init():907] backend started and connected
+2025-05-16 16:24:51,994 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_config_callback():1436] config_cb None None {'colsample_bytree': 0.6627554801435929, 'learning_rate': 0.049427056385369865, 'max_depth': 7, 'n_estimators': 200, 'subsample': 0.7827104286493536}
+2025-05-16 16:24:51,998 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_label_probe_notebook():1376] probe notebook
+2025-05-16 16:24:52,011 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_label_probe_notebook():1386] Unable to probe notebook: 'charmap' codec can't decode byte 0x81 in position 38601: character maps to <undefined>
+2025-05-16 16:24:52,011 INFO    Thread-91 (_run_job):28288 [wandb_init.py:init():1005] updated telemetry
+2025-05-16 16:24:52,311 INFO    Thread-91 (_run_job):28288 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-16 16:24:54,792 INFO    Thread-91 (_run_job):28288 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-16 16:24:55,274 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-16 16:24:55,277 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-16 16:24:55,278 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-16 16:24:55,279 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-16 16:24:55,283 INFO    Thread-91 (_run_job):28288 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-16 16:25:12,623 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_config_callback():1436] config_cb ('_wandb', 'visualize', 'roc_curve') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/lineseries/v0', 'fieldSettings': {'step': 'step', 'lineKey': 'lineKey', 'lineVal': 'lineVal'}, 'stringSettings': {'title': 'ROC Curve', 'xname': 'FPR'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'roc_curve_table'}], 'fields': []}]}]}}} None
+2025-05-16 16:25:16,184 INFO    Thread-91 (_run_job):28288 [retry.py:__call__():175] Retry attempt failed:
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "c:\Python310\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "c:\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000028496FF2D70>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "c:\Python310\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028496FF2D70>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\apis\public\api.py", line 108, in execute
+    return self._client.execute(*args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\Python310\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028496FF2D70>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-05-16 16:25:16,318 ERROR   Thread-91 (_run_job):28288 [redirect.py:_on_write():664] error in stderr callback
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "c:\Python310\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "c:\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000028496FF2D70>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "c:\Python310\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028496FF2D70>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\apis\public\api.py", line 108, in execute
+    return self._client.execute(*args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\Python310\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028496FF2D70>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "c:\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 2500, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "c:\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 464, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 1639, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "c:\Python310\lib\site-packages\wandb\sdk\interface\interface.py", line 762, in publish_output_raw
+    self._publish_output_raw(o)
+  File "c:\Python310\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "c:\Python310\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 174, in send_record_publish
+    self.send_server_request(server_req)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionAbortedError: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2025-05-16 16:25:29,756 INFO    Thread-46 (_heartbeat):28288 [retry.py:__call__():175] [no run ID] Retry attempt failed:
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "c:\Python310\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "c:\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000028496FF1570>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "c:\Python310\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028496FF1570>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\internal\internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "c:\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\Python310\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028496FF1570>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-05-16 16:25:29,814 ERROR   Thread-46 (_heartbeat):28288 [redirect.py:_on_write():664] [no run ID] error in stderr callback
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "c:\Python310\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "c:\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+  File "c:\Python310\lib\site-packages\urllib3\connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000028496FF1570>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "c:\Python310\lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "c:\Python310\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028496FF1570>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\internal\internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "c:\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "c:\Python310\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "c:\Python310\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000028496FF1570>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\redirect.py", line 662, in _on_write
+    cb(written_data)
+  File "c:\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 2500, in <lambda>
+    lambda data: self._console_raw_callback("stderr", data),
+  File "c:\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 464, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "c:\Python310\lib\site-packages\wandb\sdk\wandb_run.py", line 1639, in _console_raw_callback
+    self._backend.interface.publish_output_raw(name, data)
+  File "c:\Python310\lib\site-packages\wandb\sdk\interface\interface.py", line 762, in publish_output_raw
+    self._publish_output_raw(o)
+  File "c:\Python310\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 38, in _publish_output_raw
+    self._publish(rec)
+  File "c:\Python310\lib\site-packages\wandb\sdk\interface\interface_sock.py", line 39, in _publish
+    self._sock_client.send_record_publish(record)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 174, in send_record_publish
+    self.send_server_request(server_req)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 154, in send_server_request
+    self._send_message(msg)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 151, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "c:\Python310\lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionAbortedError: [WinError 10053] Se ha anulado una conexión establecida por el software en su equipo host
+2025-05-16 16:25:55,019 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_finish():2321] finishing run sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/xw0tgwl3
+2025-05-16 16:25:55,020 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_atexit_cleanup():2538] got exitcode: 0
+2025-05-16 16:25:55,025 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_restore():2520] restore
+2025-05-16 16:25:55,025 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_restore():2526] restore done
+2025-05-16 16:26:41,333 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_footer_history_summary_info():4188] rendering history
+2025-05-16 16:26:41,335 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_footer_history_summary_info():4220] rendering summary
+2025-05-16 16:26:41,336 INFO    Thread-91 (_run_job):28288 [wandb_run.py:_footer_sync_info():4149] logging synced files

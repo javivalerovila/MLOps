@@ -1,0 +1,180 @@
+2025-05-16 20:08:10,475 INFO    StreamThr :23184 [internal.py:wandb_internal():86] W&B internal server running at pid: 23184, started at: 2025-05-16 20:08:10.475271
+2025-05-16 20:08:10,487 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: status
+2025-05-16 20:08:10,491 INFO    WriterThread:23184 [datastore.py:open_for_write():85] open: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\run-q5m08ngb.wandb
+2025-05-16 20:08:10,494 DEBUG   SenderThread:23184 [sender.py:send():380] send: header
+2025-05-16 20:08:10,558 DEBUG   SenderThread:23184 [sender.py:send():380] send: run
+2025-05-16 20:08:11,145 INFO    SenderThread:23184 [dir_watcher.py:__init__():211] watching files in: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files
+2025-05-16 20:08:11,145 INFO    SenderThread:23184 [sender.py:_start_run_threads():1122] run started: q5m08ngb with start time 1747418890.47527
+2025-05-16 20:08:11,168 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: check_version
+2025-05-16 20:08:11,168 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: check_version
+2025-05-16 20:08:11,442 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: run_start
+2025-05-16 20:08:11,492 DEBUG   HandlerThread:23184 [system_info.py:__init__():32] System info init
+2025-05-16 20:08:11,492 DEBUG   HandlerThread:23184 [system_info.py:__init__():47] System info init done
+2025-05-16 20:08:11,492 INFO    HandlerThread:23184 [system_monitor.py:start():194] Starting system monitor
+2025-05-16 20:08:11,492 INFO    SystemMonitor:23184 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-05-16 20:08:11,492 INFO    HandlerThread:23184 [system_monitor.py:probe():214] Collecting system info
+2025-05-16 20:08:11,500 INFO    SystemMonitor:23184 [interfaces.py:start():190] Started cpu monitoring
+2025-05-16 20:08:11,508 INFO    SystemMonitor:23184 [interfaces.py:start():190] Started disk monitoring
+2025-05-16 20:08:11,508 DEBUG   HandlerThread:23184 [system_info.py:probe():196] Probing system
+2025-05-16 20:08:11,508 INFO    SystemMonitor:23184 [interfaces.py:start():190] Started memory monitoring
+2025-05-16 20:08:11,541 INFO    SystemMonitor:23184 [interfaces.py:start():190] Started network monitoring
+2025-05-16 20:08:11,549 DEBUG   HandlerThread:23184 [system_info.py:_probe_git():181] Probing git
+2025-05-16 20:08:11,676 DEBUG   HandlerThread:23184 [system_info.py:_probe_git():189] Probing git done
+2025-05-16 20:08:11,676 DEBUG   HandlerThread:23184 [system_info.py:probe():244] Probing system done
+2025-05-16 20:08:11,676 DEBUG   HandlerThread:23184 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.26100-SP0', 'python': '3.10.0', 'heartbeatAt': '2025-05-16T18:08:11.508301', 'startedAt': '2025-05-16T18:08:10.474259', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\src\\api\\train.py', 'codePathLocal': 'train.py', 'codePath': 'project\\src\\api\\train.py', 'git': {'remote': 'https://github.com/javier-pg/upm-dl-mlops.git', 'commit': '398aaa143e16c404dafbfd1b44af36e71c54af78'}, 'email': 'javiervalvi@gmail.com', 'root': 'C:/Users/javier/OneDrive/Documentos/Master/MLOps/upm-dl-mlops', 'host': 'Valero', 'username': 'javier', 'executable': 'C:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\venv\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1600.0, 'min': 0.0, 'max': 1800.0}, 'cpu_freq_per_core': [{'current': 1600.0, 'min': 0.0, 'max': 1800.0}], 'disk': {'/': {'total': 237.19237899780273, 'used': 208.24971389770508}}, 'memory': {'total': 7.88580322265625}}
+2025-05-16 20:08:11,676 INFO    HandlerThread:23184 [system_monitor.py:probe():224] Finished collecting system info
+2025-05-16 20:08:11,676 INFO    HandlerThread:23184 [system_monitor.py:probe():227] Publishing system info
+2025-05-16 20:08:11,676 DEBUG   HandlerThread:23184 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2025-05-16 20:08:11,676 DEBUG   HandlerThread:23184 [system_info.py:_save_pip():68] Saving pip packages done
+2025-05-16 20:08:11,676 INFO    HandlerThread:23184 [system_monitor.py:probe():229] Finished publishing system info
+2025-05-16 20:08:11,696 DEBUG   SenderThread:23184 [sender.py:send():380] send: files
+2025-05-16 20:08:11,696 INFO    SenderThread:23184 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2025-05-16 20:08:11,708 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: stop_status
+2025-05-16 20:08:11,708 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: stop_status
+2025-05-16 20:08:11,711 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-16 20:08:12,054 DEBUG   SenderThread:23184 [sender.py:send():380] send: telemetry
+2025-05-16 20:08:12,152 INFO    Thread-16 :23184 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\requirements.txt
+2025-05-16 20:08:12,153 INFO    Thread-16 :23184 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\wandb-metadata.json
+2025-05-16 20:08:12,358 INFO    wandb-upload_0:23184 [upload_job.py:push():131] Uploaded file C:\Users\javier\AppData\Local\Temp\tmpzg6v24eiwandb\f9uierd5-wandb-metadata.json
+2025-05-16 20:08:16,093 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: status_report
+2025-05-16 20:08:21,146 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: status_report
+2025-05-16 20:08:22,211 INFO    Thread-16 :23184 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\output.log
+2025-05-16 20:08:23,638 DEBUG   SenderThread:23184 [sender.py:send():380] send: exit
+2025-05-16 20:08:23,640 INFO    SenderThread:23184 [sender.py:send_exit():585] handling exit code: 1
+2025-05-16 20:08:23,640 INFO    SenderThread:23184 [sender.py:send_exit():587] handling runtime: 12
+2025-05-16 20:08:23,662 INFO    SenderThread:23184 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2025-05-16 20:08:23,662 INFO    SenderThread:23184 [sender.py:send_exit():593] send defer
+2025-05-16 20:08:23,662 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:23,662 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 0
+2025-05-16 20:08:23,664 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:23,664 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 0
+2025-05-16 20:08:23,664 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 1
+2025-05-16 20:08:23,664 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:23,664 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 1
+2025-05-16 20:08:23,664 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:23,664 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 1
+2025-05-16 20:08:23,664 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 2
+2025-05-16 20:08:23,664 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:23,664 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 2
+2025-05-16 20:08:23,664 INFO    HandlerThread:23184 [system_monitor.py:finish():203] Stopping system monitor
+2025-05-16 20:08:23,664 DEBUG   SystemMonitor:23184 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-05-16 20:08:23,664 INFO    HandlerThread:23184 [interfaces.py:finish():202] Joined cpu monitor
+2025-05-16 20:08:23,664 DEBUG   SystemMonitor:23184 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-05-16 20:08:23,664 INFO    HandlerThread:23184 [interfaces.py:finish():202] Joined disk monitor
+2025-05-16 20:08:23,664 DEBUG   SystemMonitor:23184 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-05-16 20:08:23,664 INFO    HandlerThread:23184 [interfaces.py:finish():202] Joined memory monitor
+2025-05-16 20:08:23,664 INFO    HandlerThread:23184 [interfaces.py:finish():202] Joined network monitor
+2025-05-16 20:08:23,664 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:23,664 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 2
+2025-05-16 20:08:23,664 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 3
+2025-05-16 20:08:23,664 DEBUG   SenderThread:23184 [sender.py:send():380] send: stats
+2025-05-16 20:08:23,664 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:23,664 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 3
+2025-05-16 20:08:23,664 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:23,664 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 3
+2025-05-16 20:08:23,664 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 4
+2025-05-16 20:08:23,664 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:23,673 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 4
+2025-05-16 20:08:23,673 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:23,673 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 4
+2025-05-16 20:08:23,673 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 5
+2025-05-16 20:08:23,673 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:23,673 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 5
+2025-05-16 20:08:23,674 DEBUG   SenderThread:23184 [sender.py:send():380] send: summary
+2025-05-16 20:08:23,674 INFO    SenderThread:23184 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2025-05-16 20:08:23,674 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:23,674 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 5
+2025-05-16 20:08:23,674 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 6
+2025-05-16 20:08:23,674 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:23,674 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 6
+2025-05-16 20:08:23,674 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:23,674 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 6
+2025-05-16 20:08:23,674 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: status_report
+2025-05-16 20:08:23,879 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 7
+2025-05-16 20:08:23,881 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:23,881 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 7
+2025-05-16 20:08:23,881 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:23,881 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 7
+2025-05-16 20:08:24,225 INFO    Thread-16 :23184 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\config.yaml
+2025-05-16 20:08:24,225 INFO    Thread-16 :23184 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\output.log
+2025-05-16 20:08:24,227 INFO    Thread-16 :23184 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\wandb-summary.json
+2025-05-16 20:08:24,674 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-16 20:08:26,240 INFO    Thread-16 :23184 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\output.log
+2025-05-16 20:08:27,387 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 8
+2025-05-16 20:08:27,389 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: poll_exit
+2025-05-16 20:08:27,389 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:27,389 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 8
+2025-05-16 20:08:27,389 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:27,389 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 8
+2025-05-16 20:08:27,389 INFO    SenderThread:23184 [job_builder.py:build():281] Attempting to build job artifact
+2025-05-16 20:08:27,394 INFO    SenderThread:23184 [job_builder.py:_get_source_type():393] is repo sourced job
+2025-05-16 20:08:27,403 INFO    SenderThread:23184 [job_builder.py:build():369] adding wandb-job metadata file
+2025-05-16 20:08:27,403 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 9
+2025-05-16 20:08:27,403 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:27,403 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 9
+2025-05-16 20:08:27,403 DEBUG   SenderThread:23184 [sender.py:send():380] send: artifact
+2025-05-16 20:08:28,256 INFO    Thread-16 :23184 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\output.log
+2025-05-16 20:08:28,345 INFO    SenderThread:23184 [sender.py:send_artifact():1456] sent artifact job-https___github.com_javier-pg_upm-dl-mlops.git_project_src_api_train.py - {'id': 'QXJ0aWZhY3Q6MTc0MjExNTA0Nw==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0MTQ4OTA4Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTc0MjExNTA0Nw==', 'versionIndex': 0}}}
+2025-05-16 20:08:28,345 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:28,345 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 9
+2025-05-16 20:08:28,345 INFO    SenderThread:23184 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-05-16 20:08:29,272 INFO    SenderThread:23184 [dir_watcher.py:finish():388] scan: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files
+2025-05-16 20:08:29,272 INFO    SenderThread:23184 [dir_watcher.py:finish():402] scan save: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\config.yaml config.yaml
+2025-05-16 20:08:29,272 INFO    SenderThread:23184 [dir_watcher.py:finish():402] scan save: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\output.log output.log
+2025-05-16 20:08:29,272 INFO    SenderThread:23184 [dir_watcher.py:finish():402] scan save: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\requirements.txt requirements.txt
+2025-05-16 20:08:29,272 INFO    SenderThread:23184 [dir_watcher.py:finish():402] scan save: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\wandb-metadata.json wandb-metadata.json
+2025-05-16 20:08:29,272 INFO    SenderThread:23184 [dir_watcher.py:finish():402] scan save: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\wandb-summary.json wandb-summary.json
+2025-05-16 20:08:29,272 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 10
+2025-05-16 20:08:29,272 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:29,272 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 10
+2025-05-16 20:08:29,272 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:29,272 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 10
+2025-05-16 20:08:29,272 INFO    SenderThread:23184 [file_pusher.py:finish():175] shutting down file pusher
+2025-05-16 20:08:29,713 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: keepalive
+2025-05-16 20:08:29,726 INFO    wandb-upload_0:23184 [upload_job.py:push():131] Uploaded file C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\config.yaml
+2025-05-16 20:08:29,846 INFO    wandb-upload_1:23184 [upload_job.py:push():131] Uploaded file C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\output.log
+2025-05-16 20:08:29,911 INFO    wandb-upload_3:23184 [upload_job.py:push():131] Uploaded file C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\wandb-summary.json
+2025-05-16 20:08:29,948 INFO    wandb-upload_2:23184 [upload_job.py:push():131] Uploaded file C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\files\requirements.txt
+2025-05-16 20:08:30,154 INFO    Thread-15 (_thread_body):23184 [sender.py:transition_state():613] send defer: 11
+2025-05-16 20:08:30,154 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:30,154 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 11
+2025-05-16 20:08:30,154 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:30,154 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 11
+2025-05-16 20:08:30,154 INFO    SenderThread:23184 [file_pusher.py:join():181] waiting for file pusher
+2025-05-16 20:08:30,154 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 12
+2025-05-16 20:08:30,155 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:30,155 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 12
+2025-05-16 20:08:30,155 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:30,155 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 12
+2025-05-16 20:08:30,155 INFO    SenderThread:23184 [file_stream.py:finish():595] file stream finish called
+2025-05-16 20:08:30,376 INFO    SenderThread:23184 [file_stream.py:finish():599] file stream finish is done
+2025-05-16 20:08:30,376 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 13
+2025-05-16 20:08:30,376 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:30,376 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 13
+2025-05-16 20:08:30,376 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:30,376 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 13
+2025-05-16 20:08:30,376 INFO    SenderThread:23184 [sender.py:transition_state():613] send defer: 14
+2025-05-16 20:08:30,377 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: defer
+2025-05-16 20:08:30,377 INFO    HandlerThread:23184 [handler.py:handle_request_defer():172] handle defer: 14
+2025-05-16 20:08:30,377 DEBUG   SenderThread:23184 [sender.py:send():380] send: final
+2025-05-16 20:08:30,377 DEBUG   SenderThread:23184 [sender.py:send():380] send: footer
+2025-05-16 20:08:30,377 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: defer
+2025-05-16 20:08:30,378 INFO    SenderThread:23184 [sender.py:send_request_defer():609] handle sender defer: 14
+2025-05-16 20:08:30,379 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: poll_exit
+2025-05-16 20:08:30,379 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: server_info
+2025-05-16 20:08:30,379 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: poll_exit
+2025-05-16 20:08:30,379 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: get_summary
+2025-05-16 20:08:30,379 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: sampled_history
+2025-05-16 20:08:30,380 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: internal_messages
+2025-05-16 20:08:30,380 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: server_info
+2025-05-16 20:08:30,382 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: job_info
+2025-05-16 20:08:30,537 DEBUG   SenderThread:23184 [sender.py:send_request():407] send_request: job_info
+2025-05-16 20:08:30,537 INFO    MainThread:23184 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2025-05-16 20:08:30,537 INFO    MainThread:23184 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2025-05-16 20:08:30,537 INFO    MainThread:23184 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2025-05-16 20:08:30,537 DEBUG   HandlerThread:23184 [handler.py:handle_request():146] handle_request: shutdown
+2025-05-16 20:08:30,537 INFO    HandlerThread:23184 [handler.py:finish():866] shutting down handler
+2025-05-16 20:08:31,390 INFO    WriterThread:23184 [datastore.py:close():294] close: C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\wandb\run-20250516_200810-q5m08ngb\run-q5m08ngb.wandb
+2025-05-16 20:08:31,541 INFO    SenderThread:23184 [sender.py:finish():1534] shutting down sender
+2025-05-16 20:08:31,541 INFO    SenderThread:23184 [file_pusher.py:finish():175] shutting down file pusher
+2025-05-16 20:08:31,541 INFO    SenderThread:23184 [file_pusher.py:join():181] waiting for file pusher

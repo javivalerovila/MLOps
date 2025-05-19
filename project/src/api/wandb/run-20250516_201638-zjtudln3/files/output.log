@@ -1,0 +1,24 @@
+C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\xgboost\training.py:183: UserWarning: [20:16:47] WARNING: C:\actions-runner\_work\xgboost\xgboost\src\learner.cc:738:
+Parameters: { "use_label_encoder" } are not used.
+  bst.update(dtrain, iteration=i, fobj=obj)
+AUC del modelo: 0.9261
+Matriz de confusion: [[5413  588]
+ [ 299 5702]]
+Métricas de evaluación:
+acc: 0.9260956507248792
+precision: 0.9065182829888713
+recall: 0.9501749708381937
+f1: 0.9278333740135059
+auc: 0.9779259558501067
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 170, in <module>
+    artifact.add_file("artifacts/encoder.pkl")
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\wandb\sdk\artifacts\artifact.py", line 1183, in add_file
+    raise ValueError("Path is not a file: %s" % local_path)
+ValueError: Path is not a file: artifacts/encoder.pkl
+Traceback (most recent call last):
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\project\src\api\train.py", line 170, in <module>
+    artifact.add_file("artifacts/encoder.pkl")
+  File "C:\Users\javier\OneDrive\Documentos\Master\MLOps\upm-dl-mlops\venv\lib\site-packages\wandb\sdk\artifacts\artifact.py", line 1183, in add_file
+    raise ValueError("Path is not a file: %s" % local_path)
+ValueError: Path is not a file: artifacts/encoder.pkl

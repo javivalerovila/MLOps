@@ -1,0 +1,16 @@
+{"time":"2025-05-16T16:23:19.1693209+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\notebooks\\wandb\\run-20250516_162319-drjhub7j\\logs\\debug-core.log"}
+{"time":"2025-05-16T16:23:20.7952941+02:00","level":"INFO","msg":"created new stream","id":"drjhub7j"}
+{"time":"2025-05-16T16:23:20.7959982+02:00","level":"INFO","msg":"stream: started","id":"drjhub7j"}
+{"time":"2025-05-16T16:23:20.7959982+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"drjhub7j"}
+{"time":"2025-05-16T16:23:20.7959982+02:00","level":"INFO","msg":"sender: started","stream_id":"drjhub7j"}
+{"time":"2025-05-16T16:23:20.7959982+02:00","level":"INFO","msg":"handler: started","stream_id":"drjhub7j"}
+{"time":"2025-05-16T16:23:21.1645684+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T16:23:37.6345848+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T16:23:37.6345848+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T16:23:38.6527552+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-drjhub7j-predictions_table","runtime_seconds":1.7462346,"subtasks":[{"desc":"predictions_table.table.json","runtime_seconds":0.9651715,"progress":"337.2KB/337.2KB"}]},{"desc":"uploading media\\table\\predictions_table_3_2a03b49c6361bbc0f3d9.table.json","runtime_seconds":0.7086554,"progress":"280.6KB/280.6KB"},{"desc":"uploading output.log","runtime_seconds":0.7086554},{"desc":"uploading wandb-summary.json","runtime_seconds":0.7086554,"progress":"1.7KB/1.7KB"}],"total_operations":4}}
+{"time":"2025-05-16T16:23:39.736952+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T16:23:40.123438+02:00","level":"INFO","msg":"stream: closing","id":"drjhub7j"}
+{"time":"2025-05-16T16:23:40.123438+02:00","level":"INFO","msg":"handler: closed","stream_id":"drjhub7j"}
+{"time":"2025-05-16T16:23:40.123438+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"drjhub7j"}
+{"time":"2025-05-16T16:23:40.124998+02:00","level":"INFO","msg":"sender: closed","stream_id":"drjhub7j"}
+{"time":"2025-05-16T16:23:40.124998+02:00","level":"INFO","msg":"stream: closed","id":"drjhub7j"}

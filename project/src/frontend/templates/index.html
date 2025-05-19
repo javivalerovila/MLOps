@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictor de fraude</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 3rem auto;
+            /* Añadimos margen vertical para que no se corte arriba */
+            padding: 2rem;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #555;
+        }
+
+        form input[type="text"],
+        form input[type="number"],
+        form select {
+            width: 100%;
+            padding: 0.6rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        form input[type="submit"] {
+            background-color: #74ebd5;
+            border: none;
+            color: #fff;
+            padding: 0.8rem;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #66d1c3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>¡Predice si es fraude o no!</h1>
+        <form action="/predict_fraud" method="POST">
+            <label>Payment_6804:</label>
+            <input type="number" name="Payment_6804" required>
+
+            <label>Infraction_EJZ:</label>
+            <input type="number" name="Infraction_EJZ" required>
+
+            <label>Base_76065</label>
+            <input type="number" name="Base_76065" required>
+
+            <label>Infraction_GGO</label>
+            <input type="number" name="Infraction_GGO" required>
+
+            <label>Infraction_TLPJ</label>
+            <input type="number" name="Infraction_TLPJ" required>
+
+            <label>Infraction_RKTA</label>
+            <input type="number" name="Infraction_RKTA" required>
+
+            <label>Infraction_CZE</label>
+            <input type="number" name="Infraction_CZE" required>
+
+            <label>Base_02683</label>
+            <input type="number" name="Base_02683" required>
+
+            <label>Infraction_BSU</label>
+            <input type="number" name="Infraction_BSU" required>
+
+            <label>Infraction_FMXQ</label>
+            <input type="number" name="Infraction_FMXQ" required>
+
+            <label>Infraction_TBP</label>
+            <input type="number" name="Infraction_TBP" required>
+
+            <label>Expenditure_JIG</label>
+            <input type="number" name="Expenditure_JIG" required>
+
+            <label>Base_7744</label>
+            <input type="number" name="Base_7744" required>
+
+            <label>Risk_8902</label>
+            <input type="number" name="Risk_8902" required>
+
+            <label>Infraction_AYWV</label>
+            <input type="number" name="Infraction_AYWV" required>
+
+            <input type="submit" value="Predecir fraude">
+        </form>
+    </div>
+</body>
+
+</html>

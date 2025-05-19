@@ -1,0 +1,28 @@
+{"time":"2025-05-16T16:24:52.0112693+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"c:\\Users\\javier\\OneDrive\\Documentos\\Master\\MLOps\\upm-dl-mlops\\project\\notebooks\\wandb\\run-20250516_162451-xw0tgwl3\\logs\\debug-core.log"}
+{"time":"2025-05-16T16:24:54.2837401+02:00","level":"INFO","msg":"created new stream","id":"xw0tgwl3"}
+{"time":"2025-05-16T16:24:54.2837401+02:00","level":"INFO","msg":"stream: started","id":"xw0tgwl3"}
+{"time":"2025-05-16T16:24:54.284437+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"xw0tgwl3"}
+{"time":"2025-05-16T16:24:54.284437+02:00","level":"INFO","msg":"handler: started","stream_id":"xw0tgwl3"}
+{"time":"2025-05-16T16:24:54.284437+02:00","level":"INFO","msg":"sender: started","stream_id":"xw0tgwl3"}
+{"time":"2025-05-16T16:24:54.829313+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-16T16:25:10.7090419+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/xw0tgwl3/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:25:12.9846076+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/xw0tgwl3/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:25:17.5346786+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/xw0tgwl3/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:25:27.4412257+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/xw0tgwl3/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:25:29.5097847+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.190.25:61899->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-16T16:25:31.9337374+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:25:36.7602703+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:25:44.0908403+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/xw0tgwl3/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:25:45.1944744+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-16T16:25:55.0283639+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-16T16:25:55.0283639+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-16T16:25:56.049454+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":45.3673136,"error_status":"retrying: Post \"https://api.wandb.ai/files/sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/xw0tgwl3/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}],"total_operations":1}}
+{"time":"2025-05-16T16:26:12.2226117+02:00","level":"INFO","msg":"api: retrying HTTP error","status":503,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"The service is currently unavailable. Please try again later.\",\"path\":[\"createArtifact\"]}],\"data\":{\"createArtifact\":null}}"}
+{"time":"2025-05-16T16:26:33.6048837+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.190.25:61977->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-16T16:26:33.6053+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.190.25:61977->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-05-16T16:26:40.9800583+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-16T16:26:41.3725882+02:00","level":"INFO","msg":"stream: closing","id":"xw0tgwl3"}
+{"time":"2025-05-16T16:26:41.3725882+02:00","level":"INFO","msg":"handler: closed","stream_id":"xw0tgwl3"}
+{"time":"2025-05-16T16:26:41.3732434+02:00","level":"INFO","msg":"sender: closed","stream_id":"xw0tgwl3"}
+{"time":"2025-05-16T16:26:41.3732434+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xw0tgwl3"}
+{"time":"2025-05-16T16:26:41.3740666+02:00","level":"INFO","msg":"stream: closed","id":"xw0tgwl3"}
