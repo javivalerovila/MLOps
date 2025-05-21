@@ -51,8 +51,8 @@ jobs:
         run: az acr login --name ${{ vars.AZURE_ACR_NAME }}
       - name: Build & push API image
         run: |
-          docker build -t ${{ vars.AZURE_ACR_NAME }}.azurecr.io/house-price-mlops:ci ./project/src/api
-          docker push ${{ vars.AZURE_ACR_NAME }}.azurecr.io/house-price-mlops:ci
+          docker build -t ${{ vars.AZURE_ACR_NAME }}.azurecr.io/fraud-classification-mlops:ci ./project/src/api
+          docker push ${{ vars.AZURE_ACR_NAME }}.azurecr.io/fraud-classification-mlops:ci
 
   # ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ BUILD WEB ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑
   build-web:
@@ -68,8 +68,8 @@ jobs:
         run: az acr login --name ${{ vars.AZURE_ACR_NAME }}
       - name: Build & push Web image
         run: |
-          docker build -t ${{ vars.AZURE_ACR_NAME }}.azurecr.io/web-house-price-mlops:ci ./project/src/frontend
-          docker push ${{ vars.AZURE_ACR_NAME }}.azurecr.io/web-house-price-mlops:ci
+          docker build -t ${{ vars.AZURE_ACR_NAME }}.azurecr.io/web-fraud-classification-mlops:ci ./project/src/frontend
+          docker push ${{ vars.AZURE_ACR_NAME }}.azurecr.io/web-fraud-classification-mlops:ci
 
   # ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ DEPLOY ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑
   deploy:
