@@ -47,19 +47,8 @@ jobs:
       - uses: azure/login@v1
         with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
-      - name: Get ACR access token
-        id: acr-token
-        run: |
-          TOKEN=$(az acr login --name ${{ vars.AZURE_ACR_NAME }} --expose-token --output tsv --query accessToken)
-          echo "::add-mask::$TOKEN"
-          echo "ACR_TOKEN=$TOKEN" >> $GITHUB_ENV**
-
-      - name: Docker login to ACR
-        run: |
-          echo $ACR_TOKEN | docker login ${{ vars.AZURE_ACR_NAME }}.azurecr.io \
-            --username 00000000-0000-0000-0000-000000000000 \
-            --password-stdin
-
+      - name: Docker login
+        run: az acr login --name ${{ vars.AZURE_ACR_NAME }}
       - name: Build & push API image
         run: |
           docker build -t ${{ vars.AZURE_ACR_NAME }}.azurecr.io/fraud-classification-mlops:ci ./project/src/api
@@ -75,20 +64,8 @@ jobs:
       - uses: azure/login@v1
         with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
-
-      - name: Get ACR access token
-        id: acr-token
-        run: |
-          TOKEN=$(az acr login --name ${{ vars.AZURE_ACR_NAME }} --expose-token --output tsv --query accessToken)
-          echo "::add-mask::$TOKEN"
-          echo "ACR_TOKEN=$TOKEN" >> $GITHUB_ENV**
-
-      - name: Docker login to ACR
-        run: |
-          echo $ACR_TOKEN | docker login ${{ vars.AZURE_ACR_NAME }}.azurecr.io \
-            --username 00000000-0000-0000-0000-000000000000 \
-            --password-stdin
-
+      - name: Docker login
+        run: az acr login --name ${{ vars.AZURE_ACR_NAME }}
       - name: Build & push Web image
         run: |
           docker build -t ${{ vars.AZURE_ACR_NAME }}.azurecr.io/web-fraud-classification-mlops:ci ./project/src/frontend
