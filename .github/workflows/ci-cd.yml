@@ -91,10 +91,9 @@ jobs:
           ls -la project/ || echo "No existe project/"
           echo "\n=== Contenido de project/src ==="
           ls -la project/src || echo "No existe project/src"
-      - name: Prepare docker‑compose.prod.yml
+      - name: Prepare docker-compose.prod.yml
         working-directory: project/src
         run: |
-          cd project/src
           cp docker-compose.prod.yml docker-compose.yml
           zip deploy.zip docker-compose.yml
       - name: Deploy to Azure Web App
