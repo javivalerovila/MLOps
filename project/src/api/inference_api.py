@@ -35,7 +35,6 @@ class FraudData(BaseModel):
     Risk_8902: float
     Infraction_AYWV: float
 
-
 # Función para transformar variables categóricas usando los encoders guardados
 def transform_new_data_ohe(df, imputer):
     """
