@@ -37,6 +37,7 @@ def predict():
     Risk_8902 = request.form.get("Risk_8902")
     Infraction_AYWV = request.form.get("Infraction_AYWV")
 
+
     # Construimos la carga en JSON para la API
     payload = {
         "Payment_6804": float(Payment_6804),
