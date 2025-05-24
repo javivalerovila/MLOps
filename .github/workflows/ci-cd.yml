@@ -65,7 +65,7 @@ jobs:
         with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Docker login
-        run: az acr login --name ${{ vars.AZURE_ACR_NAME }}
+        run: az acr login --name ${{ vars.AZURE_ACR_NAME }} --username ${{ secrets.ACR_USERNAME }} --password ${{ secrets.ACR_PASSWORD }}
       - name: Build & push Web image
         run: |
           docker build -t ${{ vars.AZURE_ACR_NAME }}.azurecr.io/web-fraud-classification-mlops:ci ./project/src/frontend
@@ -90,6 +90,9 @@ jobs:
               --name fraud-classification \
               --multicontainer-config-type compose \
               --multicontainer-config-file ./project/src/docker-compose.prod.yml
+              --docker-registry-server-url https://${{ vars.AZURE_ACR_NAME }}.azurecr.io \  # Referencia explícita al ACR
+              --docker-registry-server-user ${{ vars.AZURE_ACR_NAME }} \
+              --docker-registry-server-password ${{ secrets.ACR_PASSWORD }}
           fi
       - name: Prepare docker-compose.prod.yml
         working-directory: project/src
