@@ -13,7 +13,6 @@ API_URL = f"http://{API_HOST}:{API_PORT}/predict_fraud"
 # Puerto de la aplicación web
 WEB_APP_PORT = os.environ.get("WEB_APP_PORT", "8080")
 
-
 @app.route("/", methods=["GET"])
 def index():
     # Renderiza un formulario HTML
