@@ -81,6 +81,16 @@ jobs:
       - uses: azure/login@v1
         with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Debug - Mostrar estructura de directorios
+        run: |
+          echo "=== Directorio actual ==="
+          pwd
+          echo "\n=== Contenido del repositorio ==="
+          ls -la
+          echo "\n=== Contenido de project/ ==="
+          ls -la project/ || echo "No existe project/"
+          echo "\n=== Contenido de project/src ==="
+          ls -la project/src || echo "No existe project/src"
       - name: Prepare docker‑compose.prod.yml
         working-directory: ./project/src
         run: |
