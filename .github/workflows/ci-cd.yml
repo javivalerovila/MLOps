@@ -90,4 +90,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ vars.AZURE_WEBAPP_NAME }}
+          resource-group-name: upm-mlops
           package: ./project/src/deploy.zip
