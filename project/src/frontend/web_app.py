@@ -18,6 +18,7 @@ def index():
     # Renderiza un formulario HTML
     return render_template("index.html")
 
+
 @app.route("/predict_fraud", methods=["POST"])
 def predict():
     # Recogemos los datos del formulario

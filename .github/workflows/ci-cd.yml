@@ -82,6 +82,7 @@ jobs:
         with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Prepare docker‑compose.prod.yml
+        working-directory: ./project/src
         run: |
           cd project/src
           cp docker-compose.prod.yml docker-compose.yml
