@@ -92,7 +92,7 @@ jobs:
           echo "\n=== Contenido de project/src ==="
           ls -la project/src || echo "No existe project/src"
       - name: Prepare docker‑compose.prod.yml
-        working-directory: ./project/src
+        working-directory: project/src
         run: |
           cd project/src
           cp docker-compose.prod.yml docker-compose.yml
