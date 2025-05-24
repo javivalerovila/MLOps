@@ -81,16 +81,16 @@ jobs:
       - uses: azure/login@v1
         with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
-      - name: Debug - Mostrar estructura de directorios
+      - name: Create Azure Web App (if not exists)
         run: |
-          echo "=== Directorio actual ==="
-          pwd
-          echo "\n=== Contenido del repositorio ==="
-          ls -la
-          echo "\n=== Contenido de project/ ==="
-          ls -la project/ || echo "No existe project/"
-          echo "\n=== Contenido de project/src ==="
-          ls -la project/src || echo "No existe project/src"
+          if ! az webapp show --name fraud-classification --resource-group upm-mlops --query "name" -o tsv; then
+            az webapp create \
+              --resource-group upm-mlops \
+              --plan fraud-classification-plan \
+              --name fraud-classification \
+              --multicontainer-config-type compose \
+              --multicontainer-config-file ./project/src/docker-compose.prod.yml
+          fi
       - name: Prepare docker-compose.prod.yml
         working-directory: project/src
         run: |
@@ -99,6 +99,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: ${{ vars.AZURE_WEBAPP_NAME }}
+          app-name: ${{vars.AZURE_WEBAPP_NAME }}
           resource-group-name: upm-mlops
           package: ./project/src/deploy.zip
