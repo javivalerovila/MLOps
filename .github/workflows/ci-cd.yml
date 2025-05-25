@@ -35,9 +35,9 @@ jobs:
         run: |
           WANDB_API_KEY="${{ secrets.WANDB_API_KEY }}" \
           WANDB_ARTIFACT_PATH="${{ vars.WANDB_ARTIFACT_PATH }}" \
+          WANDB_ENTITY="${{ vars.WANDB_ENTITY }}" \  # Variable añadida
           docker-compose -f ./project/src/docker-compose.yml up --abort-on-container-exit test
 
-  # ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ BUILD API ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑
   build-api:
     runs-on: ubuntu-latest
     needs: [test, detect-changes]
@@ -54,7 +54,6 @@ jobs:
           docker build -t ${{ vars.AZURE_ACR_NAME }}.azurecr.io/fraud-classification-mlops:latest ./project/src/api
           docker push ${{ vars.AZURE_ACR_NAME }}.azurecr.io/fraud-classification-mlops:latest
 
-  # ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ BUILD WEB ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑
   build-web:
     runs-on: ubuntu-latest
     needs: [test, detect-changes]
@@ -71,7 +70,6 @@ jobs:
           docker build -t ${{ vars.AZURE_ACR_NAME }}.azurecr.io/web-fraud-classification-mlops:latest ./project/src/frontend
           docker push ${{ vars.AZURE_ACR_NAME }}.azurecr.io/web-fraud-classification-mlops:latest
 
-  # ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑ DEPLOY ‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑‑
   deploy:
     runs-on: ubuntu-latest
     needs: [build-api, build-web]
@@ -89,9 +87,9 @@ jobs:
               --plan fraud-classification-plan \
               --name fraud-classification \
               --multicontainer-config-type compose \
-              --multicontainer-config-file ./project/src/docker-compose.prod.yml
-              --docker-registry-server-url https://${{ vars.AZURE_ACR_NAME }}.azurecr.io \  # Referencia explícita al ACR
-              --docker-registry-server-user ${{ vars.AZURE_ACR_NAME }} \
+              --multicontainer-config-file ./project/src/docker-compose.prod.yml \
+              --docker-registry-server-url https://${{ vars.AZURE_ACR_NAME }}.azurecr.io \
+              --docker-registry-server-user ${{ secrets.ACR_USERNAME }} \  # Usar secret
               --docker-registry-server-password ${{ secrets.ACR_PASSWORD }}
           fi
       - name: Prepare docker-compose.prod.yml
@@ -105,3 +103,7 @@ jobs:
           app-name: ${{vars.AZURE_WEBAPP_NAME }}
           resource-group-name: upm-mlops
           package: ./project/src/deploy.zip
+        env:  # Variables para el entorno de producción
+          WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
+          WANDB_ARTIFACT_PATH: ${{ vars.WANDB_ARTIFACT_PATH }}
+          WANDB_ENTITY: ${{ vars.WANDB_ENTITY }}
