@@ -3,7 +3,6 @@ import requests
 import os
 
 app = Flask(__name__)
-
 # Configuración de la URL base de la API
 # Se puede configurar a través de variables de entorno (Docker) o por defecto localhost:8000 (se ejecuta sin Docker)
 API_HOST = os.environ.get("API_HOST", "localhost")

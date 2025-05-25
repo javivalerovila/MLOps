@@ -67,6 +67,13 @@ def transform_new_data_ohe(df, imputer):
 # Inicializar wandb (no inicia un run de tracking)
 api = wandb.Api()
 
+# En tu código (antes de usar wandb), añade:
+import os
+print("=== ENVIRONMENT VARIABLES ===")
+print("WANDB_ENTITY:", os.getenv("WANDB_ENTITY"))  # Debe mostrar tu entidad
+print("WANDB_API_KEY:", "***" if os.getenv("WANDB_API_KEY") else "No encontrada")  # Solo confirma existencia
+print("WEBSITES_PORT:", os.getenv("WEBSITES_PORT"))  # Debe ser 8080
+
 # Definir el nombre del artefacto y usuario/proyecto
 artifact_path = os.getenv("WANDB_ARTIFACT_PATH", "sofiaperezperez22-universidad-polit-cnica-de-madrid/Fraud-classification/fraud_classification_model:latest")
 
@@ -77,7 +84,6 @@ artifact_dir = artifact.download()
 # Cargar artefactos guardados
 model = joblib.load(os.path.join(artifact_dir, "model.pkl"))
 imputer = joblib.load(os.path.join(artifact_dir, "imputer.pkl"))
-
 
 # Inicializar la aplicación FastAPI
 app = FastAPI(title="API de Inferencia - Detección de fraude")
