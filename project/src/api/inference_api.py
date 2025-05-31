@@ -105,7 +105,6 @@ async def predict_fraud(data: FraudData):
     # Retornar la predicción
     return {"predicted_fraud": float(pred[0])}
 
-
 # Ejecutar la API (ejecutar este script directamente)
 if __name__ == "__main__":
     # Ejecutar la API en el puerto especificado

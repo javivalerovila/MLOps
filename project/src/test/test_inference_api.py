@@ -17,7 +17,6 @@ API_HOST = os.environ.get("API_HOST", "localhost")
 API_PORT = int(os.environ.get("API_PORT", 8000))
 API_URL = f"http://{API_HOST}:{API_PORT}"
 
-
 import time
 import requests
 
