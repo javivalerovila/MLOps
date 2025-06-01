@@ -89,7 +89,7 @@ jobs:
               --multicontainer-config-type compose \
               --multicontainer-config-file ./project/src/docker-compose.prod.yml \
               --docker-registry-server-url https://${{ vars.AZURE_ACR_NAME }}.azurecr.io \
-              --docker-registry-server-user ${{ secrets.ACR_USERNAME }} \  # Usar secret
+              --docker-registry-server-user ${{ secrets.ACR_USERNAME }} \
               --docker-registry-server-password ${{ secrets.ACR_PASSWORD }}
           fi
       - name: Prepare docker-compose.prod.yml
@@ -103,7 +103,7 @@ jobs:
           app-name: ${{vars.AZURE_WEBAPP_NAME }}
           resource-group-name: upm-mlops
           package: ./project/src/deploy.zip
-        env:  # Variables para el entorno de producción
+        env: 
           WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
           WANDB_ARTIFACT_PATH: ${{ vars.WANDB_ARTIFACT_PATH }}
           WANDB_ENTITY: ${{ vars.WANDB_ENTITY }}

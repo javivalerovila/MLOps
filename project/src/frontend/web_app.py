@@ -9,6 +9,7 @@ API_HOST = os.environ.get("API_HOST", "localhost")
 API_PORT = os.environ.get("API_PORT", "8000")
 API_URL = f"http://{API_HOST}:{API_PORT}/predict_fraud"
 
+
 # Puerto de la aplicación web
 WEB_APP_PORT = os.environ.get("WEB_APP_PORT", "8080")
 
