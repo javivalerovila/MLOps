@@ -35,7 +35,7 @@ jobs:
         run: |
           WANDB_API_KEY="${{ secrets.WANDB_API_KEY }}" \
           WANDB_ARTIFACT_PATH="${{ vars.WANDB_ARTIFACT_PATH }}" \
-          WANDB_ENTITY="${{ vars.WANDB_ENTITY }}" \  # Variable añadida
+          WANDB_ENTITY="${{ vars.WANDB_ENTITY }}" \
           docker-compose -f ./project/src/docker-compose.yml up --abort-on-container-exit test
 
   build-api:
