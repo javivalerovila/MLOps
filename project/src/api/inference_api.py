@@ -66,7 +66,6 @@ def transform_new_data_ohe(df, imputer):
 
 # Inicializar wandb (no inicia un run de tracking)
 api = wandb.Api()
-
 # En tu código (antes de usar wandb), añade:
 import os
 print("=== ENVIRONMENT VARIABLES ===")

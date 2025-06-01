@@ -79,31 +79,37 @@ jobs:
       - uses: azure/login@v1
         with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
-      - name: Create Azure Web App (if not exists)
+
+      - name: Configure Azure Web App
         run: |
-          if ! az webapp show --name fraud-classification --resource-group upm-mlops --query "name" -o tsv; then
-            az webapp create \
-              --resource-group upm-mlops \
-              --plan fraud-classification-plan \
-              --name fraud-classification \
-              --multicontainer-config-type compose \
-              --multicontainer-config-file ./project/src/docker-compose.prod.yml \
-              --docker-registry-server-url https://${{ vars.AZURE_ACR_NAME }}.azurecr.io \
-              --docker-registry-server-user ${{ secrets.ACR_USERNAME }} \
-              --docker-registry-server-password ${{ secrets.ACR_PASSWORD }}
-          fi
+          # Convertir compose a base64
+          COMPOSE_BASE64=$(base64 -w0 ./project/src/docker-compose.prod.yml)
+
+          # Actualizar configuración de contenedores
+          az webapp config set \
+            --name ${{ vars.AZURE_WEBAPP_NAME }} \
+            --resource-group upm-mlops \
+            --linux-fx-version "COMPOSE|$COMPOSE_BASE64"
+
+          # Configurar credenciales ACR
+          az webapp config container set \
+            --name ${{ vars.AZURE_WEBAPP_NAME }} \
+            --resource-group upm-mlops \
+            --docker-registry-server-url https://${{ vars.AZURE_ACR_NAME }}.azurecr.io \
+            --docker-registry-server-user ${{ secrets.ACR_USERNAME }} \
+            --docker-registry-server-password ${{ secrets.ACR_PASSWORD }}
+
+      # Paso existente (opcional, puedes eliminarlo)
       - name: Prepare docker-compose.prod.yml
         working-directory: project/src
         run: |
           cp docker-compose.prod.yml docker-compose.yml
           zip deploy.zip docker-compose.yml
+
+      # Paso existente
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{vars.AZURE_WEBAPP_NAME }}
           resource-group-name: upm-mlops
           package: ./project/src/deploy.zip
-        env: 
-          WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
-          WANDB_ARTIFACT_PATH: ${{ vars.WANDB_ARTIFACT_PATH }}
-          WANDB_ENTITY: ${{ vars.WANDB_ENTITY }}
